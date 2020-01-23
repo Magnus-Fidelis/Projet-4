@@ -653,7 +653,6 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
 .container {
     max-width: 1000px;
 }
@@ -679,6 +678,30 @@ a {
 p {
     font-size: 11px;
 }
+/* Ajouts CSS Pour remplacer les images par du textes */
+
+.title1
+{
+    margin: 1% 20% 1% 20%;
+}
+.title2
+{
+    font-size: 20px;
+    margin: 0 25% 0 25%;
+}
+.citation_main
+{
+    font-size: 20px;
+    margin: 0 8% 0 8%;
+    font-weight: lighter;
+    font-style: italic;
+}
+.citation_auteur
+{
+    font-size: 14px;
+    margin: 0 8% 0 8%;
+}
+/* Fin de l'ajout*/
 
 .tight-width-whitespace {
     max-width: 600px;
