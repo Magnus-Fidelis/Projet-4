@@ -7371,7 +7371,7 @@ button.close {
 .carousel-control.left {
     background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    background-image: (linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+    background-image: linear-gradient(to left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-repeat: repeat-x
 }
@@ -7381,7 +7381,7 @@ button.close {
     left: auto;
     background-image: linear-gradient(to left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: linear-gradient(to left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    background-image: (linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    background-image: linear-gradient(to left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-repeat: repeat-x
 }
