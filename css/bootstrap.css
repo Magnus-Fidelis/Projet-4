@@ -3616,7 +3616,7 @@ textarea.input-lg {
 
 @media (min-width:768px) {
     .form-horizontal .form-group-lg .control-label {
-        padding-top: 14.33px;
+        padding-top: 14.33px; 
         font-size: 18px
     }
 }
@@ -3638,12 +3638,12 @@ textarea.input-lg {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    -ms-touch-action: manipulation;
+    touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
     user-select: none;
     user-select: none;
-    -ms-user-select: none;
+    user-select: none;
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
@@ -3679,7 +3679,6 @@ textarea.input-lg {
 .btn[disabled],
 fieldset[disabled] .btn {
     cursor: not-allowed;
-    filter: alpha(opacity=65);
     box-shadow: none;
     box-shadow: none;
     opacity: .65
@@ -3978,31 +3977,27 @@ fieldset[disabled] .btn-info:active,
 fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info:hover {
     background-color: #5bc0de;
-    border-color: #46b8da
 }
 
 .btn-info .badge {
     color: #5bc0de;
     background-color: #fff
 }
-
+ 
 .btn-warning {
     color: #fff;
     background-color: #f0ad4e;
-    border-color: #eea236
 }
 
 .btn-warning.focus,
 .btn-warning:focus {
     color: #fff;
     background-color: #ec971f;
-    border-color: #985f0d
 }
 
 .btn-warning:hover {
     color: #fff;
     background-color: #ec971f;
-    border-color: #d58512
 }
 
 .btn-warning.active,
@@ -4010,7 +4005,6 @@ fieldset[disabled] .btn-info:hover {
 .open>.dropdown-toggle.btn-warning {
     color: #fff;
     background-color: #ec971f;
-    border-color: #d58512
 }
 
 .btn-warning.active.focus,
@@ -4024,7 +4018,6 @@ fieldset[disabled] .btn-info:hover {
 .open>.dropdown-toggle.btn-warning:hover {
     color: #fff;
     background-color: #d58512;
-    border-color: #985f0d
 }
 
 .btn-warning.active,
@@ -6855,7 +6848,6 @@ button.list-group-item {
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    filter: alpha(opacity=20);
     opacity: .2
 }
 
@@ -6864,7 +6856,6 @@ button.list-group-item {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -6945,12 +6936,10 @@ button.close {
 }
 
 .modal-backdrop.fade {
-    filter: alpha(opacity=0);
     opacity: 0
 }
 
 .modal-backdrop.in {
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -7040,13 +7029,11 @@ button.close {
     word-spacing: normal;
     word-wrap: normal;
     white-space: normal;
-    filter: alpha(opacity=0);
     opacity: 0;
     line-break: auto
 }
 
 .tooltip.in {
-    filter: alpha(opacity=90);
     opacity: .9
 }
 
@@ -7404,7 +7391,6 @@ button.close {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -7431,7 +7417,6 @@ button.close {
 .carousel-control:hover {
     color: #fff;
     text-decoration: none;
-    filter: alpha(opacity=90);
     outline: 0;
     opacity: .9
 }
