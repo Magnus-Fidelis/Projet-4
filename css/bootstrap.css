@@ -3164,7 +3164,7 @@ input[type=search] {
     appearance: none
 }
 
-@media screen and (min-device-width:0) {
+@media screen and (min-width:0) {
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
@@ -5073,7 +5073,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7371,7 +7371,6 @@ button.close {
 .carousel-control.left {
     background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    background-image: linear-gradient(to left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-repeat: repeat-x
 }
@@ -7381,7 +7380,6 @@ button.close {
     left: auto;
     background-image: linear-gradient(to left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: linear-gradient(to left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    background-image: linear-gradient(to left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-repeat: repeat-x
 }
