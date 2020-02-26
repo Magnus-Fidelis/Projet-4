@@ -3143,9 +3143,6 @@ output {
     opacity: 1
 }
 
-.form-control:input-placeholder {
-    color: #999
-}
 
 .form-control[disabled],
 .form-control[readonly],
@@ -3167,7 +3164,7 @@ input[type=search] {
     appearance: none
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (min-device-width:0) {
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
